@@ -80,7 +80,7 @@ fi
 #IF/ELSE
 
 #!/bin/bash
-VARL="BIG-BASH"
+VAR="BIG-BASH"
 if [ "$VAR" = "bash" ]
 then
 echo "bash shell."
