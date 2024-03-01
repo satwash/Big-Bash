@@ -9,7 +9,16 @@ else
 fi
 
 
-#################################################3
+#################################################
+#!/bin/bash
+
+if [[ -s test ]] 
+then
+	echo "That was true"
+else
+	echo "That was false"
+fi
+#################################################
 
 # Check if a file exists
 if [ -f "/path/to/file" ]; then
